@@ -1,0 +1,201 @@
+
+.*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(223, 218, 218);
+    width: 20vw;
+    font-family: 'Fira Sans',sans-serif;
+    height: 120vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 80vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: rgb(202, 9, 128);*/
+    height: 78vh;
+    width: 70vw;
+    margin: 144px auto  ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue; 
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+    height: 58vh;
+    border-radius: 200px;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+}
+
+.contactform h1{
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+       flex-direction: column;
+}
+
+.contactform form div{
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin:0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogcontainer{
+    text-align: center;
+}
+
+.blogitem{
+    text-align: center;
+}
+
+h1{
+    margin: 23px;
+}
+
+.intro h2{
+    margin: 0 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex; 
+    align-items: center;
+    font-weight: 900;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+
